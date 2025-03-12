@@ -1,0 +1,25 @@
+{
+  "name": "100day-fullstack",
+  "version": "1.0.0",
+  "description": "apun banega full stack devloper ",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "full",
+    "stack",
+    "100x",
+    "dev"
+  ],
+  "author": "rick lord",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.13.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}
