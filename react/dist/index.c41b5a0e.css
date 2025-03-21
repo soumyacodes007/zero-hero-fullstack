@@ -1,0 +1,31 @@
+.logo img {
+  border-radius: 10px;
+  width: 150px;
+  height: 100px;
+}
+
+.header {
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  display: flex;
+}
+
+.nav > ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.nav > ul > li {
+  cursor: pointer;
+  margin: 10px;
+  padding: 10px;
+  transition: color .3s;
+}
+
+.nav > ul > li:hover {
+  color: #007bff;
+}
+/*# sourceMappingURL=index.c41b5a0e.css.map */

@@ -1,0 +1,30 @@
+.logo img {
+  width: 150px;  /* ✅ Correct width */
+  height: 100px; /* ✅ Correct height */
+  border-radius: 10px; /* ✅ Optional: Makes corners rounded */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* ✅ Ensures vertical alignment */
+  padding: 10px; /* ✅ Adds spacing inside the header */
+}
+
+.nav > ul {
+  display: flex;
+  list-style: none; /* ✅ Removes default bullet points */
+  padding: 0; /* ✅ Removes default padding */
+  margin: 0; /* ✅ Removes default margin */
+}
+
+.nav > ul > li {
+  padding: 10px;  /* ❌ Removed extra spaces ✅ Corrected */
+  margin: 10px;   /* ❌ Removed extra spaces ✅ Corrected */
+  cursor: pointer; /* ✅ Makes items clickable */
+  transition: color 0.3s; /* ✅ Smooth hover effect */
+}
+
+.nav > ul > li:hover {
+  color: #007bff; /* ✅ Changes color on hover */
+}
